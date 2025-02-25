@@ -9,5 +9,18 @@ int yosh = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Meniki 3 da, yoshimiz farqi {yosh - 3} yosh ekan." );
 Console.WriteLine($"Siz Keshadan kattami?\n>>> {yosh > 3}");
 Console.WriteLine($"Siz Keshadan kichikmi?\n>>> {yosh < 3}");
-Console.WriteLine($"Siz Kesha bilan tengdoshmi>\n>>> {yosh == 3}");
-
+Console.WriteLine($"Siz Kesha bilan tengdoshmi?\n>>> {yosh == 3}");
+// shartlash
+if (yosh < 3)
+{
+    Console.WriteLine("Siz Keshadan kichik.");
+}
+else if (yosh == 3)
+{
+    Console.WriteLine("Siz Kesha bilan tengdosh.");
+}
+else
+{
+    Console.WriteLine("Siz Keshadan katta.");
+}
+ 
