@@ -29,3 +29,12 @@ string message =
     ?"Siz Keshadan kichik emas."
     :"Siz Keshadan kichik.";
  Console.WriteLine(message);
+// array operator
+string[] friends = { "Vasya", "Kasee", "Valya" };
+int[] ages = { 1, 2, 2 };
+Console.WriteLine($"Keshaning {friends[0]}, {friends[1]} va {friends[2]} degan do\'stlari bor.\nUlardan {friends[0]} {ages[0]} yoshda, {friends[1]} {ages[1]} yoshda va {friends[2]} {ages[2]} yoshda.");
+// for and foreach
+for (int index = 0; index < friends.Length; index ++)
+{
+    Console.WriteLine($"{friends[index]} {ages[index]} yoshda.");
+}
