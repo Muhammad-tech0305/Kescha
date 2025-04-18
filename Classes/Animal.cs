@@ -4,8 +4,8 @@ namespace Kescha.Classes
 {
    class Animal
    {
-      string Name {get ; set;}
-      int Age {get; set;}
+      public string Name {get ; set;}
+      public int Age {get; set;}
 
       public Animal(string animalName, int animalAge)
       {
@@ -22,6 +22,11 @@ namespace Kescha.Classes
          Console.Write("Yoshingiz nechada: ");
          int userAge = int.Parse(Console.ReadLine());
          Console.WriteLine($"Zo'r! Meniki {Age} da.");
+      }
+
+      public int AgeDifference(int userAge)
+      {
+         return userAge - Age;
       }
 
    }

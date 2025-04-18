@@ -1,22 +1,19 @@
 ﻿using System;
 using Kescha.Classes;
 
-Animal kescha = new Animal("Kesha", 3);
+class Program
+{
+    static void Main()
+    {
+        Animal kescha = new Animal("Kesha", 3);
+        kescha.Greeting();
 
-kescha.Greeting();
+        Console.WriteLine(kescha.Name);
+        Console.WriteLine(kescha.Age);
 
-
-
-
-
-
-
-
-
-
-
-
-
+        Console.WriteLine(kescha.AgeDifference(22));
+    }
+}
 
 
 
