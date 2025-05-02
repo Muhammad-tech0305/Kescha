@@ -1,7 +1,7 @@
 using System;
 namespace Kescha.Classes
 {
-   class Animal
+   class Animal : IAnimal
    {
       public string Name {get ; set;}
       public int Age {get; set;}
@@ -59,4 +59,5 @@ namespace Kescha.Classes
    {
       public Bird(string name, int age) : base(name, age){}
    }
+  
 }
