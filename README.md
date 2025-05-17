@@ -1,2 +1,1 @@
-# Kescha
-Bu KESHA dasturi
+
